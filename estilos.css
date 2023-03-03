@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Duru Sans', sans-serif;
+    color: #b8b6b4;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1b2838;
+}
+
+header {
+    background-color: #171a21;
+}
+
+header>div {
+    margin-left: 250px;
+    margin-right: 5%;
+    display: flex;
+    padding: 30px 0;
+    position: relative;
+}
+
+header img {
+    height: 45px;
+}
+
+header ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+header ul a {
+    text-transform: uppercase;
+}
+
+header a {
+    color: #b8b6b4;
+}
+
+header .opciones {
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.opciones button {
+    border: none;
+    border-radius: none;
+    color: #e5e4dc;
+    background-color: #5c7e10;
+    padding: 4px 8px;
+}
+
+.opciones a,
+.opciones select {
+    font-size: 12px;
+}
+
+.opciones select {
+    background: none;
+    border: none;
+    color: #b8b6b4;
+}
+.opciones option{
+    background-color: #171a21;
+    border: none;
+}
+
+.portada{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
